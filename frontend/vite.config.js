@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://booking-app-api-ng.herokuapp.com",
+        target: "https://booking-app-5v9c.onrender.com",
         changeOrigin: true,
         secure: false,
         ws: true,
